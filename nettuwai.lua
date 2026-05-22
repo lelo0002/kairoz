@@ -231,21 +231,19 @@ local Library = {
     RegistryMap = {};
     HudRegistry = {};
 
-    -- colors and font --
-		FontColor = Color3.fromRGB(255, 255, 255),
-		MainColor = Color3.fromRGB(22, 22, 22),
-		BackgroundColor = Color3.fromRGB(19, 19, 19),
+FontColor = Color3.fromRGB(255, 255, 255),
+MainColor = Color3.fromRGB(29, 29, 29),
+BackgroundColor = Color3.fromRGB(20, 20, 20),
 
-		AccentColor = Color3.fromRGB(114, 137, 218),
-		DisabledAccentColor = Color3.fromRGB(142, 142, 142),
+AccentColor = Color3.fromRGB(97, 6, 6),
+DisabledAccentColor = Color3.fromRGB(142, 142, 142),
 
-		OutlineColor = Color3.fromRGB(50, 56, 65),
-		DisabledOutlineColor = Color3.fromRGB(70, 70, 70),
+OutlineColor = Color3.fromRGB(44, 44, 44),
+DisabledOutlineColor = Color3.fromRGB(70, 70, 70),
 
-		DisabledTextColor = Color3.fromRGB(142, 142, 142),
+DisabledTextColor = Color3.fromRGB(142, 142, 142),
 
-		RiskColor = Color3.fromRGB(255, 50, 50),
-
+RiskColor = Color3.fromRGB(255, 50, 50),
 		Black = Color3.new(0, 0, 0),
     Font = Enum.Font.Gotham,
 
