@@ -1,4 +1,4 @@
--- fuck roblox, fuck rivals2
+-- fuck roblox, fuck rivals3
 local cloneref = (cloneref or clonereference or function(instance: any)
 	return instance
 end)
