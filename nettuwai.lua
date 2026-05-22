@@ -1,4 +1,4 @@
--- fuck roblox, fuck rivals
+-- fuck roblox, fuck rivals2
 local cloneref = (cloneref or clonereference or function(instance: any)
 	return instance
 end)
@@ -6860,14 +6860,14 @@ function Library:CreateWindow(...)
 
     Window.TabButtonContainer = TabButtonContainer
 
-    local TabListLayout = Library:Create("UIListLayout", {
-        Padding = UDim.new(0, WindowInfo.TabPadding);
-        FillDirection = Enum.FillDirection.Horizontal;
-        HorizontalAlignment = Enum.HorizontalAlignment.Center;
-        SortOrder = Enum.SortOrder.LayoutOrder;
-        VerticalAlignment = Enum.VerticalAlignment.Center;
-        Parent = TabButtonContainer;
-    })
+local TabListLayout = Library:Create("UIListLayout", {
+    Padding = UDim.new(0, WindowInfo.TabPadding);
+    FillDirection = Enum.FillDirection.Horizontal;
+    HorizontalAlignment = Enum.HorizontalAlignment.Left;
+    SortOrder = Enum.SortOrder.LayoutOrder;
+    VerticalAlignment = Enum.VerticalAlignment.Center;
+    Parent = TabButtonContainer;
+})
 
     local TabGlider = Library:Create("Frame", {
         BackgroundColor3 = Library.AccentColor;
